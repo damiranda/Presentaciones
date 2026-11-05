@@ -1,0 +1,228 @@
+---
+pagetitle: "Can Civic Education Compensate Social Inequalities in Civic Outcomes? Evidence from Chile and Comparative LargeScale Assessments."
+Author: Daniel Miranda 
+bibliography: ref-extracts.bib
+csl: apa.csl
+
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: "#>"
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format:
+  revealjs:
+   # logo: images/banner_nudos.jpg
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: fade
+    transition-speed: slow
+# data-background-image: images/cover.jpg
+# data-background-size: cover
+    auto-play-media: true
+  pdf:
+    format: beamer 
+    keep-tex: true  # Debug the LaTeX output if needed
+editor: visual
+---
+
+::: columns
+::: {.column width="10%"}
+![](images/invalsi.png)
+
+![](images/datinvalsi.png)
+
+![](images/logo_nudos.jpg)
+
+![](images/coes.png)
+:::
+
+::: {.column .column-right width="85%"}
+<br>
+
+### **Can Civic Education Compensate Social Inequalities in Civic Outcomes? Evidence from Chile and Comparative LargeScale Assessments.**
+
+------------------------------------------------------------------------
+
+**Daniel Miranda**, Departamento de Psicología, Universidad de Chile
+
+**Jorge Matamala**, Universidad del Desarrollo
+
+**Benjamín Zavala**, Universidad de Chile
+
+##### FONDECYT 1240922: Youth political attitudes and behaviors: inequality, school socialization styles and intergenerational influences
+
+Conference 2026: "Evaluation and Research Education". November 4-6. Lecco, Italy.
+:::
+:::
+
+## Research agenda on citizenship education
+
+-   Why conduct research on this topic?
+
+    -   Current project and previous project on political socialization
+
+    -   The general research questions we addressed were:
+
+        -   What factors and mechanisms explain the intergenerational transmission of political inequality?
+
+        -   To what extent is the school an agent that reproduces or mitigates the intergenerational transmission of family political inequality?
+
+## Political inequality
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Political inequality is a threat to the principles of the democratic system [@burns1997; @solt2008].
+
+-   The proper functioning of democracy rests on citizens participating on equal terms in decision-making processes, taking an interest in socially and politically relevant issues, adhering to democratic principles, and developing attitudes and knowledge consistent with life in a democratic society.
+
+-   Depending on their educational level, economic resources, gender or national origin, people may have different degrees of access to political voice, interest in politics, knowledge, adherence to democratic values or principles, etc.
+:::
+
+## Family background and civic outcomes
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Political inequalities are observed in the adult population and from an early age [@castillo2014; @meirick2004; @miranda2023]
+
+-   The family transmits beliefs, attitudes, knowledge and skills relevant to the exercise of citizenship, directly socializing its sons and daughters.
+
+-   In addition, the family passes on the advantages of its social position to the next generation, which results in the transmission of political inequality.
+:::
+
+## Family background and civic outcomes
+
+![](images/paste-9CD3AE8F.png)
+
+## Compensation hypothesis
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   The school system offers a range of activities, defined both formally and informally, that have the potential to develop aspects relevant to the exercise of citizenship.
+
+-   The compensation hypothesis proposes that the school experience, ideally similar for everyone who attends, can level, moderate, mitigate or compensate for the gaps caused by social origin [@campbell2019].
+
+-   @langtonPoliticalSocializationHigh1968 describe how the middle class (socioeconomically advantaged) benefits less from civic education than the working class (socioeconomically disadvantaged, such as the African American population in their study) due to information redundancy (ceiling effect, [@neundorf2016a]).
+:::
+
+## Compensation of inequalities (mitigation)
+
+![](images/paste-0B5B1518.png)
+
+## Maintenance of inequalities
+
+![](images/paste-9AA70400.png)
+
+## Increase of inequalities
+
+![](images/paste-DF6C5825.png)
+
+## 
+
+::: {style="font-size: 150%; display: flex; justify-content: center; align-items: center"}
+</br> *This study examines this tension by assessing whether school civic education compensates for inequalities of origin in Chile and in a broad set of countries.*
+:::
+
+# Study 1: ICCS 2016
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Based on the international ICCS 2016 study to compare results across countries.
+
+-   **Civic knowledge** was analyzed as the dependent variable, with socioeconomic status as the central predictor.
+
+-   At the school level, **average practices** of an open classroom climate for discussion, participatory activities and formal civic education are considered.
+
+-   At individual level, **perception of** an open classroom climate for discussion, participatory activities and formal civic education are considered.
+
+-   Multilevel hierarchical models were estimated with interactions (*individual and at school level*) between socioeconomic status and school practices.
+:::
+
+# Study 2: Chile
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Analyzes the evolution of civic inequalities in Chile using the CIVED 1999, ICCS 2009 and ICCS 2016 datasets and a 2019 national sample (secondary school students).
+
+-   **Willingness to vote** was analyzed as a bynary dependent variable, with socioeconomic status as the central predictor (books and education).
+
+-   At the school level, **average practices** of an open classroom climate for discussion, participatory activities and formal civic education are considered.
+
+-   At individual level, **perception of** an open classroom climate for discussion, participatory activities and formal civic education are considered.
+
+-   Multilevel hierarchical models were estimated with interactions (*individual and at school level*) between socioeconomic status and school practices.
+:::
+
+## How is civic education defined? {.small}
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Content-oriented activities: school subject
+
+-   Participation-oriented activities: elections, forums, etc.
+
+-   Focus on social relationships: among students, between students and teachers
+:::
+
+# Results {data-background-color="#d3d3d3"}
+
+## Study 1: ICCS 2016
+
+::: {.incremental .highlight-last style="font-size: 80%;"}
+![](fig2.jpeg){fig-align="center" width="55%"}
+:::
+
+## Study 1: ICCS 2016
+
+::: {.incremental .highlight-last style="font-size: 80%;"}
+![](fig3.jpeg){fig-align="center" width="70%"}
+:::
+
+## Study 2: Chile
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   In all four studies the most common result is *reproduction*. That is, there is no interaction effect.
+
+-   This does not mean that civic education is irrelevant for increasing the intention to vote, but no compensation of inequalities  For instance,
+
+  + The more perception and school average of learning to vote increse the intention to vote.
+  
+  + The more perception and school average of open classroom climate increse the intention to vote.
+:::
+
+## Study 2: Chile
+
+![](cived99.png){fig-align="center" width="75%"} :::
+
+# Discussion
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Evidence for the compensation hypothesis is limited when considering the school as a context (Mexico, Italy, Russia, Taiwan).
+
+    -   Subject, participation and discussion.
+
+-   Evidence for the compensation hypothesis is limited when considering perceptions of the school (12 countries).
+
+    -   Subject, participation, discussion and social relationships.
+:::
+
+# Discussion
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   However, an increase in inequalities is also observed (in 2 countries when considering the school as a context, and in 7 when considering perceptions of the school).
+
+-   In Study 2, compensation of inequalities is obseved only one time (CIVED 1999: Open Classroom Climate compensate the effects of books at home).
+
+-   Therefore, the most common result is reproduction.
+:::
+
+# What's next?
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Systematize the results
+
+-   Integrate all versions of ICCS and future ICCS 2027 releases
+
+-   Focus on upper secondary education
+:::
+
+# Thank you very much!
+
+## References
