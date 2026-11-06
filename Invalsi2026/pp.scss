@@ -30,7 +30,7 @@ $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
 
 $heading1Size: 3.00em;
-$heading2Size: 2.11em;
+$heading2Size: 1.09em;
 $heading3Size: 1.55em;
 $heading4Size: 1.00em;
 
@@ -111,5 +111,16 @@ $selectionColor: #fff;
 .pull-right-wide {
   float: right;
   width: 66%;
+}
+
+/*-- scss:rules --*/
+.reveal .slide-logo {
+  height: 70px !important;
+  max-height: 70px !important;
+  width: auto !important;
+  max-width: none !important;
+  top: 34px !important;
+  right: 12px !important;
+  bottom: auto !important;
 }
 
