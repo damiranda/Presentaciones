@@ -165,6 +165,10 @@ School level (average) and individual perception
 
 ## Study 1: ICCS 2016
 
+![](compensationmap.png){fig-align="center" width="70%"}
+
+## Study 1: ICCS 2016
+
 ::: {.incremental .highlight-last style="font-size: 80%;"}
 ![](fig2.jpeg){fig-align="center" width="55%"}
 :::
