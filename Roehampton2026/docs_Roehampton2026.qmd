@@ -140,7 +140,7 @@ editor: visual
 ::: {.incremental .highlight-last style="font-size: 100%;"}
 -   Analyzes the evolution of civic inequalities in Chile using the CIVED 1999, ICCS 2009 and ICCS 2016 datasets and a 2019 national sample (secondary school students).
 
--   **Willingness to vote** (dummy coded) was analyzed as a bynary dependent variable, with socioeconomic status as the central predictor (books and education).
+-   **Willingness to vote** was analyzed as a bynary dependent variable, with socioeconomic status as the central predictor (books and education).
 
 -   At the school level, **average practices** of an open classroom climate for discussion, participatory activities and formal civic education are considered.
 

@@ -1,0 +1,372 @@
+---
+title: "Seminario Jóvenes y Redes"
+subtitle: ""
+author: "Daniel Miranda"
+date: "Nov, 2026"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: xaringan_custom/remark-local.min.js
+    css: ["custom_lisa.css", 'ninjutsu']
+    self_contained: false # if true, fonts will be stored locally
+    seal: false # show a title slide with YAML information
+    nature:
+      highlightStyle: github
+      highlightLines: true
+#      slideNumberFormat: '%current%'
+      countIncrementalSlides: false
+      beforeInit: "xaringan_custom/macros.js"
+      ratio: '16:9' # alternatives '16:9' or '4:3' or others e.g. 13:9
+      navigation:
+        scroll: true # disable slide transitions by scrolling
+---
+class: front, middle
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css"))
+xaringanExtra::use_progress_bar(color = "red", location = "top")
+
+# xaringanExtra::use_share_again()
+# xaringanExtra::use_scribble()
+```
+
+
+
+.pull-left-narrow[
+.left[
+
+![:scale 80%](img/mide_logo_2019.png)
+
+![:scale 50%](img/coes.png)
+![:scale 80%](img/nudos3.jpg)
+
+.smally[
+.grey[
+
+]
+
+
+.red[
+Jornada de Adolescencia y Entornos Digitales
+
+FACSO]
+]
+
+]
+]
+
+.medium[
+.pull-right-wide[
+.right[
+.content-box-gray[
+## .red[Participación Ciudadana Digital:]
+<br style="content:''; padding: 0,5px 0;" />
+### .text_50[descripción de brechas y su relación con participación analógica. ]
+]]
+
+.content-box-red[
+.medium[
+**Daniel Miranda**- Departamento de Psicología, Universidad de Chile
+
+
+Contacto:.blue[danmiranda@uchile.cl]
+]
+]
+]
+
+---
+
+layout: true
+class: animated, fadeIn
+
+
+---
+**Contexto**
+
+- **Fondecyt Regular 1240922**: Investigación en Formación Ciudadana en la Etapa Escolar
+
+- **Ciudadanía Digital**: Núcleo Milenio sobre Desigualdades y Oportunidades Dígitales
+
+  - La expansión acelerada del uso de herramientas digitales en diferentes esferas de la vida ha modificado múltiples aspectos de la vida
+  
+  - Por ejemplo, la forma en que los ciudadanos se manifiestan en el espacio público
+  
+    + Comprender las formas en que se ejerce la *ciudadanía* usando medios digitales 
+    
+
+---
+**Ciudadanía Digital**
+
+- Diferentes aproximaciones conceptuales y de medición (Chen, et al., 2021)
+
+  + Competencias digitales (literacidad): habilidades/información
+  
+  + Uso de tecnologías digitales/prácticas: uso de técnologias para múltiples actividades 
+  
+  + Actitudes hacia la Ciudadanía Digital: actitudes y sentimientos hacia la CD.
+  
+  + **Compromiso civico digital** (digital civic engagement): participación usando medios digitales.
+  
+    - Dígital vs analógica: online vs offline
+  
+
+---
+**Focos de esta investigación**
+
+.pull-left[
+.content-box-red[
+.red[Brechas digitales]
+
+- Diferencias socioeconómicas
+
+- Socialización de la participación digital
+
+- Diferencias de género
+]]
+
+.pull-right[
+.content-box-yellow[
+.red[Vinculos con participación analógica]
+
+- Facilitación: fuente de práctica y preparación 
+
+- Slacktivism: activismo de sofá
+
+- ¿Con qué formas de participación se relaciona?
+
+]]
+
+---
+**Objetivos**
+
+-	Explorar y mapear los niveles de Ciudadanía Digital en estudiantes. 
+
+-	Examinar las brechas de Ciudadanía Digital en términos de logro académico, género, nivel educacional de la familia, tipo de colegio y ruralidad.
+
+-	Examinar la relación entre los niveles de Participación Ciudadanía Digital y Participación Ciudadana Analógica.
+
+---
+**Datos**
+
+- International Civic and Citizenship Study ICCS 2016.
+
+  + ICCS 2016: 24 países
+  + Muestra chilena: 5081 estudiantes en 175 escuelas.
+
+- Representativa nacional de estudiantes de 8vo básico.
+  
+---
+**Medidas de participación dígital**
+
+_How often are you involved in each of the following activities? (Please tick only one box in each row.)_
+
+.content-box-red[
+- IS3G14G Using the internet to find information about political or social issues
+- IS3G14H Posting a comment or image regarding a political or social issue on the internet or social media
+- IS3G14I Sharing or commenting on another person’s online post regarding a political or social issue
+]
+
+*Response scale: 1-Never or hardly ever, 2-Monthly (at least once a month), 3-Weekly (at least once a week), 4-Daily or almost daily*
+
+---
+**Variables de brechas**
+
+- Conexión a internet en el hogar: si/no
+
+- Sexo de estudiante
+
+- Educación de los padres: Básica, Media, Técnica, Univeristaria
+
+- Frecuencia de conversación familiar sobre temas sociales y políticos: 
+
+---
+**Variables de participación analógica**
+
+- Intención de participación electoral: indicador basado en preguntas sobre intención de participación electoral futura (elecciones nacionales o locales)
+
+- Intención de participar en activismo legal: indicador basado en preguntas sobre intención de participación en actividades de protesta (marcha pacífica, discusión, contactar representantes)
+
+- Intención de participar en activismo ilegal: indicador basado en preguntas sobre intención de participación en actividades de protesta ilegales (tomarse un edificio, rayar paredes, hacer barricadas)
+
+---
+**Métodos**
+
+- Análisis descriptivos usando diseño complejo de la encuesta.
+
+
+---
+**Niveles de participación ciudadana digital**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/frecuencias.png")
+
+```
+
+---
+class: inverse animated slideInRight fadeOutLeft
+
+## .yellow[Brechas
+]
+
+---
+**Brechas según sexo del estudiante**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/sexo.png")
+
+```
+
+---
+**Brechas según acceso a internet en el hogar**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/internet.png")
+
+```
+
+
+
+
+---
+**Brechas según educación familiar**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/educacion.png")
+
+```
+
+---
+**Brechas según conversación familiar**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/conversa.png")
+
+```
+
+
+---
+class: inverse animated slideInRight fadeOutLeft
+
+## .yellow[Relación con participación analógica
+]
+
+
+---
+**Intención de participación electoral**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/electoral.png")
+
+```
+
+---
+**Intención de participación activista legal**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/legal.png")
+
+```
+
+---
+**Intención de participación activista ilegal**
+
+```{r, echo=FALSE, out.width = '85%', fig.retina = 1, fig.align='center'}
+knitr::include_graphics("files/ilegal.png")
+
+```
+
+---
+## Discusión
+
+- Informarse sobre temas sociales y políticos es una actividad más frecuente que postear o compartir información.
+
+- Se observan algunas brechas con importantes matices
+
+  + No se observan diferencias de participación dígital según sexo
+  + Para el caso de acceso a internet en el hogar y educación familiar sólo se observan brechas en información (no en postear o compartir información)
+  + Se observan diferencias importantes según convsersación familiar (socialización política familiar)
+  
+- ¿Efecto intergeneracional?
+  
+---
+## Discusión
+
+- La frecuencia de uso de medios digitales para participar se vincula con:
+
+  + Intención de participación electoral: quienes no usan medios digitales muestran menor intención de participar electoralmente.
+  + Intención de participación activista legal: para una relación más clara (líneal). 
+  + La frecuencia de uso de medios digitales para participar no se vincula con intención de participación activista ilegal.
+ 
+- Facilitación hacia el activismo legal y la participación formal.
+
+- Slacktivism hacia la participación disruptiva.
+  
+---
+## Siguientes pasos
+
+- Modelamiento multinivel
+
+- Evaluar rol de la escuela
+
+- Comparación internacional
+
+
+---
+class: inverse middle center
+
+# .yellow[Gracias por su atención!]
+
+---
+class: front middle
+
+.pull-left-narrow[
+.left[
+
+![:scale 80%](img/mide_logo_2019.png)
+
+![:scale 50%](img/coes.png)
+![:scale 80%](img/nudos3.jpg)
+
+
+.smally[
+.grey[
+Funding:
+
+ANID/FONDAP-COES/15130009
+
+ANID/MILENIO-NUDOS/Ncs2022_046
+]
+
+.red[
+VII DEMOSAL 2023, 16-18 de agosto
+
+Buenos Aires, Argentina.]
+]
+
+]
+]
+
+.medium[
+.pull-right-wide[
+.right[
+.content-box-gray[
+## .red[Participación Ciudadana Digital:]
+<br style="content:''; padding: 0,5px 0;" />
+### .text_50[descripción de brechas y su relación con participación analógica. ]
+]]
+
+.content-box-red[
+.medium[
+**Daniel Miranda**- MIDE-UC, Pontificia Universidad Católica de Chile
+
+**Juan C. Castillo** - Dept. of Sociology, Universidad de Chile
+
+**Daniel Fuenzalida**- Pontificia Universidad Católica de Chile]
+
+Contacto:.blue[damiran1@uc.cl]
+]
+]
+]
+
+
+
